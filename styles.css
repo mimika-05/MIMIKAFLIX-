@@ -1,0 +1,74 @@
+body {
+    color: rgb(245, 246, 164);
+    background: rgb(42, 147, 42);
+    margin: 0px;
+    font-family: nerko one, sans-serif;
+    margin-bottom: 100px;
+ }
+ 
+ header {
+    border-bottom: solid 2px rgb(18, 63, 7);
+    padding: 15px;
+    font-size: 27px;
+    color: rgb(17, 87, 38);
+ }
+
+ .chamada {
+    background: rgb(49, 189, 36);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+ }
+ /*codigo omitido*/
+ 
+ .chamada-texto {
+    margin-right: 5%;
+ }
+
+ h1 {
+   font-size: 45px;
+ }
+
+ p {
+   font-size: 20px;
+ }
+
+ img {
+   height: 200px;
+ }
+
+ .categoria-videos {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.categoria-videos img {
+  opacity: 0.5;
+  height: 200px;
+}
+.categoria-videos img:hover{
+  opacity: 1.0;
+  border: 1px solid rgb(200, 226, 97);
+}
+.categoria h2 {
+  color: rgb(17, 87, 38);
+}
+
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+}
+ 
